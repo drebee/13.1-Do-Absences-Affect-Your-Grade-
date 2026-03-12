@@ -9,14 +9,14 @@ Before anything else, load the libraries by running the code block below.
 library(tidyverse)
 ```
 
-# Step 1: Visualize the population
-
-First, read the data by running the code block below.
+And read the data by running the code block below.
 
 ```{r}
 population = read_csv("do_absences_affect_your_grade.csv")
 population
 ```
+
+# Step 1: Visualize the population
 
 Then plot the data by running the code block below.
 
